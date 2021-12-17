@@ -1,0 +1,28 @@
+
+06/30/2018 12:54:42 Order 00001-043-0026
+YourCompany
+Phone: +1 555 123 8069
+User: Administrator
+
+
+Carrots  1.000 kg $ 0.90
+
+Carrots  1.000 kg $ 0.90
+
+Conference pears  1.000 kg $ 1.70
+
+Golden Apples Perlim  1.000 kg $ 1.69
+
+Extra Flandria chicory  1.000 kg $ 2.20
+
+Granny Smith apples  1.000 kg $ 2.09
+
+Subtotal:$ 9.48
+
+
+Total:$ 9.48
+
+Cash (USD)$ 10.00
+
+Change:$ 0.52
+
