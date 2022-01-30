@@ -2,7 +2,7 @@
 
 {
     'name': 'Pos Text Receipt',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Point of Sale',
     'sequence': 6,
     'author': 'Webveer',
