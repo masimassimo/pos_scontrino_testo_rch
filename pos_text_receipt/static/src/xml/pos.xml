@@ -13,7 +13,7 @@
 <t t-name="PosTicketText" owl="1">
 <pre>=K
 =C1
-<t t-foreach="orderlines" t-as="line" t-key="line.id"><t t-if="line.product.taxes_id[0]==3">=R3/$</t><t t-if="line.product.taxes_id[0]==2">=R2/$</t><t t-if="line.product.taxes_id[0]==1">=R1/$</t><t t-if="line.price"><t t-esc="env.pos.format_pr(line.price*100,0)"/>/</t>*<t t-esc="env.pos.format_pr(line.quantity,0)"/>/<t t-if="line.product.display_name">(<t t-esc="line.product.display_name.substring(0,36).replaceAll('&#40;','').replaceAll('&#41;','')"/>)</t>
+<t t-foreach="orderlines" t-as="line" t-key="line.id"><t t-if="line.product.taxes_id[0]==93">=R3/$</t><t t-if="line.product.taxes_id[0]==89">=R2/$</t><t t-if="line.product.taxes_id[0]==59">=R1/$</t><t t-if="line.price"><t t-esc="env.pos.format_pr(line.price*100,0)"/>/</t>*<t t-esc="env.pos.format_pr(line.quantity,0)"/>/<t t-if="line.product.display_name">(<t t-esc="line.product.display_name.substring(0,36).replaceAll('&#40;','').replaceAll('&#41;','')"/>)</t>
 </t>=S
 <t t-foreach="receipt.paymentlines" t-as="line">=<t t-if="line.name=='Cash'">T1</t><t t-else="">T3</t>
 </t>
